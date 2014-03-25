@@ -8,5 +8,52 @@
  */
 
 body {
-	padding-top: 60px;
+	background-color: #eeeeee;
+}
+
+#maincontainer {
+    background-color: #ffffff;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+#sidebar {
+    padding-left: 0px;
+    padding-right: 4px;
+}
+
+h1, h2, h3, h4, h5, a {
+    color: rgb(179, 4, 4);
+}
+
+.container {
+    margin-top: 30px;
+    width: 920px;
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+.header .lead {
+    color: rgb(119, 119, 119);
+}
+
+.menu .nav a {
+    padding-top: 6px;
+    padding-right: 0;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    font-weight: bold;
+    background-color: rgb(179, 4, 4);
+    color: #ffffff;
+    border-right: 3px solid rgb(119, 119, 119);
+    margin-bottom: 4px;
+}
+.menu .nav a:hover {
+    color: rgb(119, 119, 119);
+}
+
+#content h2 {
+    margin-top: 0;
 }

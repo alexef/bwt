@@ -9,19 +9,10 @@
   </head>
   <body>
 
-  <div class="navbar navbar-inverse navbar-fixed-top">
-	<div class="navbar-inner">
-	<div class="container">
-	  <a class="brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
-	  <div class="nav-collapse collapse">
-		<?php
-			wp_nav_menu(array('menu_class'=>'nav', 'menu'=>'main_nav', 'container'=>false
-					)
-			); 
-		?>
-	  </div>
-	</div>
-	</div>
-  </div>
+  <div id="maincontainer">
+      <div class="header">
+          <h1><a class="brand" href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+          <p class="lead"><?php bloginfo('description'); ?></p>
+      </div>
 
-  <div class="container">
+      <div class="container">
